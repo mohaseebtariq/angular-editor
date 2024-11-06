@@ -55,7 +55,7 @@
     <button [id]="'justifyRight-'+id" type="button" title="Justify Right" class="angular-editor-button"
             (click)="triggerCommand('justifyRight')" [disabled]="htmlMode" [hidden]="isButtonHidden('justifyRight')"
             tabindex="-1">
-      <i class='fa fa-align-right'></i>
+            <fa-icon [icon]="faAlignRight"></fa-icon>
     </button>
     <button [id]="'justifyFull-'+id" type="button" title="Justify Full" class="angular-editor-button"
             (click)="triggerCommand('justifyFull')" [disabled]="htmlMode" [hidden]="isButtonHidden('justifyFull')"

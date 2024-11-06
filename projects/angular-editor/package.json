@@ -1,20 +1,27 @@
 {
-  "name": "@kolkov/angular-editor",
-  "version": "3.0.0-beta.0",
+  "name": "@mhaseebtariq/angular-editor",
+  "version": "1.0.6",
   "description": "A simple native WYSIWYG editor for Angular 8+, 13+. Rich Text editor component for Angular.",
-  "author": "Andrey Kolkov <a.kolkov@gmail.com>",
-  "repository": "https://github.com/kolkov/angular-editor",
+  "author": "Haseeb Tariq <mohaseebtariq@gmail.com>",
+  "repository": "https://github.com/mohaseebtariq/angular-editor",
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/kolkov/angular-editor/issues"
+    "url": "https://github.com/mohaseebtariq/angular-editor/issues"
   },
   "peerDependencies": {
-    "@angular/common": ">=13",
-    "@angular/core": ">=13"
+    "@angular/common": ">=15",
+    "@angular/core": ">=15",
+    "@fortawesome/angular-fontawesome": "^0.10.2",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "angular",
